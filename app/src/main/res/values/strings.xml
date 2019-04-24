@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CowLogs</string>
+    <string name="angus">Angus</string>
+    <string name="hereford">Hereford</string>
+    <string name="brahman">Brahman</string>
+    <string name="shorthorn">Shorthorn</string>
+    <string name="brangus">Brangus</string>
+    <string name="id_prompt">ID:</string>
+    <string name="breed">Breed</string>
+    <string name="id_hint">XXXX</string>
+    <string name="weight_prompt">Weight(kg):</string>
+    <string name="weight_hint">0 - 5000</string>
+    <string name="age_prompt">Age(months):</string>
+    <string name="age_hint">0 - 120</string>
+    <string name="condition">Condition:</string>
+    <string name="save_btn_tex">Save Log Entry</string>
+    <string name="display_btn">Show Log Entries</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="home">Home</string>
+
+    <string-array name="condition_ops">
+        <item></item>
+        <item>Poor</item>
+        <item>Average</item>
+        <item>Good</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="return_to_breed">Return To Breed</string>
+    <string name="average">Average</string>
+    <string name="now">22/04/2019 08:14</string>
+    <string name="def_age">27</string>
+    <string name="def_id">1111</string>
+    <string name="def_weight">120.75</string>
+    <string name="username_prompt">Username:</string>
+    <string name="your_name_hint">Your Name?</string>
+    <string name="pwd_prompt">Password:</string>
+    <string name="cpwd_prompt">Confirm Password:</string>
+    <string name="password">Password...</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="cancel_profile">Cancel Profile</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_send"
+        android:icon="@drawable/ic_send_black_24dp"
+        android:orderInCategory="100"
+        android:title="Send" />
+    <item
+        android:id="@+id/nav_save"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:orderInCategory="101"
+        android:title="Save" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:orderInCategory="102"
+        android:title="Profile" />
+</menu>
