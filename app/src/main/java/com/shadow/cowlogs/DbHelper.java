@@ -96,7 +96,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
         SQLiteDatabase db = getWritableDatabase();
 
-        String query = "DELETE FROM " + TABLE1 + " WHERE 1";
+        String query = "DELETE FROM " + TABLE1;
 
         db.rawQuery(query, null);
 

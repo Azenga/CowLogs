@@ -116,6 +116,9 @@ public class MainActivity extends AppCompatActivity implements DataEntryFragment
     }
 
     private void sendEntries() {
+        newEntryList.clear();
+        logEntryList.clear();
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Are you sure? These will delete all entries.");
         builder.setMessage("Save entries to DB first");
